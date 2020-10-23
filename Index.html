@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Find Ur Habbo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  .bs-linebreak {
+  height:10px;
+}
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">KLB</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Inicio</a></li>
+      
+      </ul>
+    
+    </div>
+  </div>
+</nav>
+
+
+<div class="container text-center">    
+  <div class="col-md-12 bs-linebreak"></div>
+  
+  <div class="row">
+
+    <div class="col-md-3 col-sm-offset-4">
+      <input id="txtPrueba" class="form-control" placeholder="Escribe el nombre de usuario"  type="text">
+    </div>
+    <div class="col-md-1">
+      <button id="btnPrueba" class="btn btn-primary">Buscar</button>
+    </div>
+    <div></div>
+
+
+  </div>
+
+
+  <img id="imgPrueba" src="" >
+  <h1 id="htxt"></h1>
+  <p id="ptxt"></p>
+
+
+  <div class="row">
+ 
+    <div class="col-sm-4 col-sm-offset-4"> 
+      <img id="imgPrueba" src="" class="img-responsive" style="width:100%;display:none;" alt="Image" >
+      <h3 id="htxt"></h3>
+      <p id="ptxt"></p>
+  
+    </div>
+ 
+  </div>
+</div><br>
+
+<!-- <footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer> -->
+
+<script type="text/javascript" src="script.js" ></script>
+</body>
+</html>
+
